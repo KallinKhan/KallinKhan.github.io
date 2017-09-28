@@ -22,7 +22,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var styleA = { background: '#000' };
+var styleA = { background: '#aaa4ba' };
 
 var App = function (_React$Component) {
     _inherits(App, _React$Component);
@@ -38,8 +38,43 @@ var App = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 _SplitPane2.default,
-                { split: 'vertical', defaultsize: '20%', pane1Style: styleA },
-                _react2.default.createElement('div', null),
+                { split: 'vertical', defaultSize: '20%', pane1Style: styleA },
+                _react2.default.createElement(
+                    'div',
+                    null,
+                    _react2.default.createElement(
+                        'h3',
+                        { style: { textAlign: 'center' } },
+                        'Links about Me'
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { style: { textAlign: 'center' } },
+                        _react2.default.createElement(
+                            'a',
+                            { href: 'https://www.linkedin.com/in/kallin-khan-454521b9/' },
+                            'LinkedIn'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { style: { textAlign: 'center' } },
+                        _react2.default.createElement(
+                            'a',
+                            { href: 'https://github.com/kallinkhan' },
+                            'Github'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { style: { textAlign: 'center' } },
+                        _react2.default.createElement(
+                            'a',
+                            { href: 'https://twitter.com/kallinkhan' },
+                            'Twitter'
+                        )
+                    )
+                ),
                 _react2.default.createElement(
                     'div',
                     null,

@@ -29,6 +29,8 @@
     "nodemon": "^1.12.1",
     "parallelshell": "^3.0.1",
     "prop-types": "^15.6.0",
+    "react-native": "^0.48.4",
+    "react-native-hyperlink": "0.0.11",
     "react-style-proptype": "^3.0.0",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.8.2"
